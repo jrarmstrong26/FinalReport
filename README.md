@@ -5,12 +5,12 @@ The code investigates how the electronic structure changes between small molecul
 
 
 # Project Files:
-'''
-Project/
-├── Final_code_AoSC.py          # Main program (functions and main settings) 
-├── README.md                   # This guide
-└── Figures/                    # Output figures (created automatically)
-'''
+
+    Project/
+    ├── Final_code_AoSC.py          # Main program (functions and main settings) 
+    ├── README.md                   # This guide
+    └── Figures/                    # Output figures (created automatically)
+
 
 # Dependencies 
 
