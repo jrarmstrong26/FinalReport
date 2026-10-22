@@ -72,7 +72,7 @@ To reproduce a result, use the script version, parameter values, plot flags and 
 |Geometry of N sized flake       |         n_sites=N, PLOT_POSITIONS=True          |         N_positions.png|
 |Energy spectra comparison        |        n_values=[6,24,54,96], PLOT_ENERGIES=True|        [6,24,54,96]_energies.png|
 |Complete shell gaps               |       shells=7, PLOT_HOMO_GAP=True              |       7_shells_gap_vs_size_plot.png|
-|Even site counts (incomplete shells)|     max_sites=294, PLOT_HOMO_GAP=True          |      |294_sites_gap_vs_size_plot.png|
+|Even site counts (incomplete shells)|     max_sites=294, PLOT_HOMO_GAP=True          |      294_sites_gap_vs_size_plot.png|
 |Single 3D orbitals                   |    n_sites=N, orb_index=k, PLOT_3D_ORBITAL=True|     k_MO_individual.svg|
 |2D MO contours                        |   n_sites=N, PLOT_CONTOUR_MO=True              |    N_MOs_1-4.png, etc|
 
