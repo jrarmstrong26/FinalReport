@@ -31,14 +31,14 @@ PyVista        0.49.1      # 3D orbital isosurfaces
 Each carbon atom contributes one π orbital. 
 
 
-Parameter     Default value     Meaning
-
-alpha         0.0               On site energy, in model units
-beta          -1.0              Nearest neighbour hopping, in model units
-a_cc          1.42              Carbon-Carbon separation, Å
-tolerance     0.1               Bond distance tolerance, Å
-l             1                 Angular momentum used for visualising Carbon 2p orbitals
-beta_eV       2.4         
+| Parameter | Default value | Meaning |
+|:--------|:--------|:--------|
+| alpha   |      0.0      |         On site energy, in model units|
+| beta     |     -1.0        |      Nearest neighbour hopping, in model units|
+| a_cc      |    1.42       |       Carbon-Carbon separation, Å|
+| tolerance  |   0.1         |      Bond distance tolerance, Å|
+| l         |    1          |       Angular momentum used for visualising Carbon 2p orbitals|
+| beta_eV   |    2.4         |  
 
 Huckel eigenvalues are in model energy units, not eV. The HOMO-LUMO separation is in |beta| units. 
 
