@@ -5,7 +5,7 @@ The code investigates how the electronic structure changes between small molecul
 
 
 # Project Files:
-'''text
+'''
 Project/
 ├── Final_code_AoSC.py          # Main program (functions and main settings) 
 ├── README.md                   # This guide
