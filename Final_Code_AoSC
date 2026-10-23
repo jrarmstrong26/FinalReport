@@ -590,22 +590,22 @@ def main():
         - Need to close PyVista to see other plots '''
 
     #Change variables here
-    n_sites = 24
+    n_sites = 6
     n_values = [6, 24, 54, 96]   # Choose sites to plot in plot_energy_spectrum
     max_sites = 294              # Used in gap vs size plots - choose number of sites
-    orb_index = 24               # Choose individual orbital to plot alone
+    orb_index = 6               # Choose individual orbital to plot alone
 
     #Choose outputing figures
-    PLOT_POSITIONS = False
-    PLOT_CONTOUR_MO = False        # Prints lot's of plots for big n_sites!
-    PLOT_ENERGY_SPECTRUM = False   
-    PLOT_ENERGIES = False
+    PLOT_POSITIONS = True
+    PLOT_CONTOUR_MO = True        # Prints lot's of plots for big n_sites!
+    PLOT_ENERGY_SPECTRUM = True   
+    PLOT_ENERGIES = True
     PLOT_3D_ORBITAL = True        # Plot individual orbital - choose orb_index above
-    PLOT_3D_ORBITALS_ALL = False   # Most expensive step when set to True, easier to see for smaller n_sites
-    PLOT_SCALING_TEST = False
+    PLOT_3D_ORBITALS_ALL = True   # Most expensive step when set to True, easier to see for smaller n_sites
+    PLOT_SCALING_TEST = True
 
     #For plot_homo_gap, decide what to plot here
-    PLOT_HOMO_GAP = False           
+    PLOT_HOMO_GAP = True           
     PLOT_INCOMPLETE = True         # plot incomplete shells
     PLOT_COMPLETE = True           # plot complete shells
     PLOT_LITERATURE = False        # plot literature values
