@@ -3,6 +3,8 @@
 A project generating a finite honeycomb lattice and solving a nearest neighbour π electron Hückel Hamiltonian, calculating orbital energies and HOMO-LUMO separations and visualising molecular orbitals. 
 The code investigates how the electronic structure changes between small molecules and larger graphene flakes. It permits an incomplete final ring, which is convenient mathematically, but isn't necessarily representative of a physical system. 
 
+Note: The code takes around 2 minutes for me to run, when plotting everything in the default settings
+
 
 # Project Files:
 
@@ -118,4 +120,5 @@ Jeong & Lee (2024), Calculation of Electronic Structures of Graphene Nanoflakes 
 Heiskanen, Manninen & Akola (2008), Electronic structure of triangular, hexagonal and round graphene flakes near the Fermi level, New Journal of Physics 10, 103015. DOI: 10.1088/1367-2630/10/10/103015.
 
 Castro Neto et al. (2009), The electronic properties of graphene, Reviews of Modern Physics 81, 109. DOI: 10.1103/RevModPhys.81.109.
+
 
